@@ -20,17 +20,22 @@ h3.style.color = "blue"
 
 container.appendChild(h3);
 
-const div = document.createElement('div2')
-div2.style.cssText = 'border-color: black; background-color: pink'
+const div2 = document.createElement('div')
+div2.style.backgroundColor = "pink";
+div2.style.border = "black";
 
 content.appendChild(div2)
 
-const div = document.createElement('h1')
+const h1 = document.createElement("h1")
 h1.textContent = "I'm in a div!"
 
-div2.appendChild('h1')
+div2.appendChild(h1);
 
-const div = document.createElement('p')
+const p = document.createElement('p')
 p.textContent = "Me too!"
 
-div2.appendChild('p')
+div2.appendChild(p);
+
+
+
+button.onclick = alertFunction;
